@@ -1,0 +1,148 @@
+html{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;
+}
+ *{
+    margin: 0px 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    
+    margin: 20px 20px;
+    height: 200px;
+}
+.menu{
+    height: 150px;
+}
+.menu li{
+    margin: 10px 20px;
+    padding: 5px 50px;
+    display: inline-block;
+    border: none;
+}
+.menu a{
+    color: white;
+    background-color: black;
+    border: outset;
+}
+.menu a:hover{
+    color: black;
+    background-color: white;
+}
+.page{
+    height: 1020px;
+    
+    text-align: center;
+}
+.title{
+    margin: 0 auto;
+    color: white;
+    background-color: black;
+    width: fit-content;
+}
+.input{
+    height: 75px;
+    
+    margin: 50px 300px;
+}
+div.input input{
+    border: solid;
+}
+#name input{
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    font-size: 50px;
+}
+#address input{
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    font-size: 50px;
+}
+#email input{
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    font-size: 50px;
+}
+#phone input{
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    font-size: 50px;
+}
+#message textarea{
+    border: solid;
+    font-size: 25px;
+    width: 100%;
+    height: 300px;
+    resize: none;
+    text-align: center;
+    
+}
+
+
+.socials{
+    clear: both;
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    
+    
+}
+.icons{
+    float: right;
+    margin: 30px 20px;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    background-color: red;
+}
+#copywrite{
+    float: left;
+    color: white;
+    margin: 40px 20px;
+}
+#icon1{
+    background-image: url(../WeeklyAssignment1/images/icons/icon-facebook.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#icon1:hover{
+    background-image: url(../WeeklyAssignment1/images/icons/icon-facebook-hover.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#icon2{
+    background-image: url(../WeeklyAssignment1/images/icons/icon-googleplus.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#icon2:hover{
+    background-image: url(../WeeklyAssignment1/images/icons/icon-googleplus-hover.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}         
+#icon3{
+    background-image: url(../WeeklyAssignment1/images/icons/icon-pinterest.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#icon3:hover{
+    background-image: url(../WeeklyAssignment1/images/icons/icon-pinterest-hover.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}         
+#icon4{
+    background-image: url(../WeeklyAssignment1/images/icons/icon-twitter.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#icon4:hover{
+    background-image: url(../WeeklyAssignment1/images/icons/icon-twitter-hover.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}

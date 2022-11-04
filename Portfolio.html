@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christopher Wright Portfolio</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Lato:wght@100;300;400&family=Playfair+Display:wght@400;500&family=Rubik:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="Portfolio.css">
+</head>
+<body>
+    <header id="nav" class="clear">
+        <nav class="nav">
+            <ul class="menu">
+                <a href="#about"><li class="on">Home</li></a>
+                <a href="#skills"><li>Skills</li></a>
+                <a href="#work"><li>Projects</li></a>
+                <a href="#contact"><li>Contact Me</li></a>
+            </ul>
+            <div class="logo"><img src="../Portfolio/PortfLogo.jfif" alt=""></div>
+        </nav>
+    </header>
+        <section id="about" class="hero ">
+            <div class="row flex">
+                <img class="heroImage" src="../Portfolio/Headshot.png" alt="">
+                <div class="heroText ">
+                    <div class="">
+                        <h1 class=""><strong>Christopher Wright</strong><br></h1>
+                        <div class="line row">Web Developer/Designer</div>
+                        
+                    </div>
+                    <p class="aboutMeText">I am a 25 year old student majoring in Computer Software Engineering Technology at Thaddeus Stevens College of Technology. I have goals of creating programs that can help people worldwide. I have done solo projects and i have worked in a team environment. </p>
+                </div>
+            </div>
+        </section>
+    <article>
+
+        
+
+        
+
+        <section id="skills" class="whatIDo ">
+            <div class="title">
+                <h1 class="sectionTitle ">My Skills</h1>
+            </div>
+            <div class="flex">
+                <div class="skills">
+                    <div>
+                        <img class="Logo" src="../Portfolio/js-javascript-round-logo-icon-png-11662226392lsrrajcm0y.png" alt="JS logo">
+                        <h2 class="sectionSub">Javascript</h2>
+                    </div>
+                    <div class="fullbar">
+                        <div class="percentbar">50%</div>
+                    </div>
+                    <p>Will add experience later</p>
+                </div>
+
+                <div class="skills">
+                    <div>
+                        <img class="Logo" src="../Portfolio/htmllogo.png" alt="HTML logo">
+                        <h2 class="sectionSub">HTML</h2>
+                    </div>
+                    <div class="fullbar ">5%
+                        <div class="percentbar otherBar"></div>
+                    </div>
+                    <p>Will add experience later</p>
+                </div>
+
+                <div class="skills">
+                    <div>
+                        <img class="Logo" src="../Portfolio/csslogo.png" alt="JS logo">
+                        <h2 class="sectionSub">CSS</h2>
+                    </div>
+                    <div class="fullbar">5%
+                        <div class="percentbar  otherBar"></div>
+                    </div>
+                    <p>Will add experience later</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="work" class="myProjects ">
+            <div class="title ">
+                <h1>Projects</h1>
+                <p>Try them out for yourself.</p>
+            </div>
+            <div class="popupDesc row">
+                <h1 id="descriptionTitle" class="row "></h1>
+                <p id="description"></p>
+            </div>
+            <div class="projects ">
+                <div class="buttons">
+                    <a target="iframeA" href="../Portfolio/Projects/Weekly Assingment2/RockPaperScissors.html"><button onclick="showDesc(`RPS`)">Rock Paper Scissors</button></a>
+                    <a target="iframeA" href="../Portfolio/Projects/Grocery List/GroceryList.html"><button onclick="showDesc(`GLM`)">Grocery List Manager </button></a>
+                    <a target="iframeA" href="../Portfolio/Projects/Quiz App/QuizApp.html"><button onclick="showDesc(`QA`)">Quiz App</button></a>
+                    <a target="iframeA" href="../Portfolio/Projects/Lecture2CSSExercises/TributePage.html"><button onclick="showDesc(`TP`)">Tribute Page</button></a>
+                    <a target="iframeA" href="../Portfolio/Projects//RestaurantPractice/Restauraunt.html"><button onclick="showDesc(`Rest`)">Webpage Template 1</button></a>
+                    <a target="iframeA" href="../Portfolio/Projects//WeeklyAssignment1/WeeklyAssignment.html"><button onclick="showDesc(`Must`)">Webpage Template 2</button></a>
+                    <a target="iframeA" href="../Portfolio/Projects/Resources/Omnifood.html"><button onclick="showDesc(`Omni`)">Webpage Template 3</button></a>
+                </div>
+                <iframe name="iframeA" id="iframeA" src="" frameborder="0"></iframe>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="title">
+                <h1>Contact Me</h1>
+            </div>
+            <div class="formContainer">
+                <form class="form" action="">
+                    <p>Contact  Form</p>
+                    <div class="formInput">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="">
+                    </div>
+                    <div class="formInput">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="">
+                    </div>
+                    <div class="formInput">
+                        <label for="subject">Subject</label>
+                        <input type="text" name="subject" id="">
+                    </div>
+                    <div class="formInput">
+                        <label for="message">Message</label>
+                        <textarea class="messageBox" name="message" id="" cols="30" rows="10"></textarea>
+                    </div>
+                    <input class="submitBtn" type="submit" value="Send Message">
+                </form>
+                <div class="contactMe">
+                    <div class="myInfo">
+                        <h2 class="infoTitle">Address</h2>
+                        <p>104 Lampeter Rd</p>
+                    </div>
+                    <div class="myInfo">
+                        <h2 class="infoTitle">Phone</h2>
+                        <a href="">(717) 415-8958</a>
+                    </div>
+                    <div class="myInfo">
+                        <h2 class="infoTitle">Email Address</h2>
+                        <a href="">cswright221@stevenscollege.edu</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </article>
+        <footer>
+            <div class=" links">
+                <ul class="footLinks">
+                    <a href="#skills"><li>Skills</li></a>
+                    <a href="#about"><li>About me</li></a>
+                    <a href="#work"><li>Projects</li></a>
+                    <a href="#contact"><li>Contact Me</li></a>
+                </ul>
+                <div class="footSocials">
+                    <a href=""><ion-icon id="fb" name="logo-facebook"></ion-icon></a>
+                    <a href=""><ion-icon id="twitter" name="logo-twitter"></ion-icon></a>
+                    <a href=""><ion-icon id="google" name="logo-google"></ion-icon></a>
+                    <a href=""><ion-icon id="ig" name="logo-instagram"></ion-icon></a>
+                </div>
+            </div>
+            <div class="copyright ">
+                <p>Copyright © 2022 by Christopher Wright. All rights reserved.</p>
+            </div>
+        </footer>
+</body>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+<script>
+        window.onscroll = function() {addSticky()};
+
+function addSticky(){
+    var nav = document.getElementById("nav")
+    var sticky = nav.offsetTop
+    if (window.pageYOffset > sticky) {
+        nav.classList.add("sticky")
+        nav.classList.remove("clear")
+    } else {
+        nav.classList.remove("sticky");
+        nav.classList.add("clear")
+    }
+}
+    function showDesc(userChoice){
+        // userChoice =` ${userChoice}`
+        if(userChoice === "RPS"){
+            document.getElementById('descriptionTitle').innerHTML= 'Rock Paper Scissors'
+            document.getElementById('description').innerHTML = 'A rock Paper Scissors game simulation with score keeping'
+        }
+        else if(userChoice === "GLM"){
+            document.getElementById('descriptionTitle').innerHTML= 'Grocery List Manager'
+            document.getElementById('description').innerHTML = 'A grocery list manager where you can add items, cross off items that you have purchased, and show unpurchased items'
+        }
+        else if(userChoice === "QA"){
+            document.getElementById('descriptionTitle').innerHTML= 'Quiz App'
+            document.getElementById('description').innerHTML = 'A quix App with 10 questions that keeps score'
+        }
+        else if(userChoice === "TP"){
+            document.getElementById('descriptionTitle').innerHTML= 'Tribute Page'
+            document.getElementById('description').innerHTML = 'A tribute page that tributes the 44th president Barrack Obama'
+        }
+        else if(userChoice === "Rest"){
+            document.getElementById('descriptionTitle').innerHTML= 'Restaurant Webpage'
+            document.getElementById('description').innerHTML = 'A webpage template of a restaurant'
+        }
+        else if(userChoice === "Must"){
+            document.getElementById('descriptionTitle').innerHTML= 'Mustachio Webpage'
+            document.getElementById('description').innerHTML = 'A webpage template with more than 1 page'
+        }
+        else if(userChoice === "Omni"){
+            document.getElementById('descriptionTitle').innerHTML= 'Omnifood Webpage'
+            document.getElementById('description').innerHTML = 'A webpage template to show skills with flex'
+        }
+    }
+</script>
+</html>

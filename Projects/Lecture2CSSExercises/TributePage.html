@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute Page</title>
+    <style>
+        body{
+            text-align: center;
+            background-color: black;
+            color: white;
+        }
+        li{
+            line-height: 50px;
+        }
+        h1{
+            text-align: center;
+            font-size: 100px;
+        }
+        h1#about{
+            font-size: 50px;
+        }
+        #name{
+            
+            text-align: center;
+            background-image: url('../Lecture2CSSExercises/Obama.jfif');
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding-bottom: 50%;
+            /* padding: 20%; */
+            
+        }
+        .about{
+            
+        }
+        #achievements{
+            text-align: left;
+            
+            
+            
+        }
+        #timeline{
+            text-align: left;
+            display: inline-block;
+            
+        }
+        /* ul{
+            list-style-position: inside;
+        }
+        ol{
+            list-style-position: inside;
+        } */
+        .jumpTo{
+            text-align: right;
+        display: inline;
+        top: 0;
+        right: 0;
+        }
+        button{
+            border-color: white;
+            border-top: 0px;
+            margin-top: -8px;
+            border-style: outset;
+            background-color: black;
+            color: white;
+        }
+        .jumpTo:hover{
+            border-style: inset;
+            border-color:black;
+            background-color: white;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div style="text-align:center;">
+       <a href="#achievements"><button style="float: left ;" class="jumpTo">Jump To Achievements</button></a> 
+       <a href="#timeline"> <button style="margin: top 0%;" class="jumpTo">Jump To Timeline</button></a>
+        <a href="#charities"><button style="float:right ;" class="jumpTo">Jump To Charities</button></a>
+    </div>
+    <hr>
+    <h1>Barrack Obama</h1>
+    <div id="name">
+        <!-- <img src="Obama.jfif" alt=""> -->
+    </div>
+    <div>
+        
+    <h1 id="about">About Barrack Obama</h1>
+    <hr>
+    </div>
+    <div id="achievements">
+        <h3>Notable Achievements</h3>
+        <ol style="display:inline-block ;">
+            <li>First person of color to get elected as President of the United States</li>
+            <li>Lifted the US out of the 2008/2009 financial crisis</li>
+            <li>Passed laws against wall street bankers to prevent another crisis</li>
+            <li>Pulled most military personel out of Iraq</li>
+            <li>Reduced Unemployment and Poverty rates while in office</li>
+            <li>Added 32 million americans to the nations healthcare with Obamacare</li>
+            <li>Was an advocate for green and renewable engergy which he gave $90 billion to fund the research</li>
+            <li>Neutralized the leader of Al-Queda, Osama Bin Laden</li>
+            <li>Due to his unwavering commitment to promotion of peace across the globe, he recieved <br>the nobel peace prize in 2009</li>
+            <li>Re-established domestic relations with Cuba</li>
+            
+        </ol>
+        <div style="display: inline;">
+        <img style="float:right ;" src="whiteHouse.jfif" alt="">
+        <img src="obamaQuote.jfif" alt="">
+        </div>
+        <hr>
+    </div>
+    <div  id="timeline" class="about">
+        
+        
+        <div style="float: left; display: inline-block;width: 50%;">
+            <h3>Timeline Of Notable Events</h3>
+        <ul style="display:inline-block ;">
+            <li><strong>1961</strong>-Born in Honolulu, Hawaii</li>
+            <li><strong>1983</strong>-Graduated from Columbia University with a Bachelor of Arts degree</li>
+            <li><strong>1988</strong>-Began to study at Harvard Law School</li>
+            <li><strong>1990</strong>-Became the first black president of the Harvard Law Review</li>
+            <li><strong>1992</strong>-Began to teach constitutional law at the University of Chicago Law School. In October, Obama married Michelle Robinson</li>
+            <li><strong>1996</strong>-Was elected to Illinois Senate</li>
+            <li><strong>1998</strong>-His first daughter, Malia was born</li>
+            </ul>
+            
+        </div>
+        <img style="float:left ;margin-top: 400px;" src="hopePic.jfif" alt="">
+        <div style=" text-align: center;display: inline;float: left;">
+            
+            <img src="caricature.jfif" alt="">
+            </div>
+            
+        
+        <div style="display: inline-block; float: right;">
+        <ul>
+            <li><strong>2001</strong>-His second daughter, Natasha was born</li>
+            <li><strong>2002</strong>-Started running for US Senate</li>
+            <li><strong>2004</strong>-Elected to US Senate</li>
+            <li><strong>2005</strong>-Sworn in to US senate</li>
+            <li><strong>2008</strong>-Was elected as 44th President of the US</li>
+            <li><strong>2009</strong>-Sworn in as 44th President of the US</li>
+            <li><strong>2011</strong>-Announced reelection campaign</li>
+            <li><strong>2011</strong>-Recieved Nobel Peace Prize</li>
+            <li><strong>2012</strong>-Reelected for 2nd term as President of the US</li>
+            <li><strong>2016</strong>-First president to visit Cuba</li>
+            <li><strong>2017</strong>-Last day in office</li>
+        </ul>
+        </div>
+        <div style="position: relative; float: left;">
+        <img style="margin-right: 75px; display: inline;" src="OFam.jfif" alt="">
+        </div>
+    </div>
+    <hr>
+    <h1 id="charities">Charities and foundations</h1>
+    <div>
+        <figure style="text-align:center ;">
+      <a href="https://www.obama.org/about-the-foundation/" target="_blank"><img src="OFound.png" alt=""></a>
+      <figcaption>The Obama Foundation</figcaption>
+    </div>
+</body>
+</html>
